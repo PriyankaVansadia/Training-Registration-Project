@@ -14,12 +14,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<center>
-	<form action="register.jsp" method="post">
-	<a href="trainee.jsp">Trainee Registration</a><br /><br /><br />
-		<br /><br /><br /> <a href="trainer.jsp">Trainer Registration</a>
-		<br /> <br /><br /><a href="trainingSchedule.jsp">Training Schedule Registration</a>
-	</form>
-</center>
+	<center>
+		<form action="register.jsp" method="post">
+			<a href="trainee.jsp">Trainee Registration</a><br />
+			<br />
+			<br /> <a href="trainer.jsp">Trainer Registration</a><br />
+			<br />
+			<br /> <a href="trainingSchedule.jsp">Training Schedule
+				Registration</a>
+		</form>
+	</center>
 </body>
 </html>
