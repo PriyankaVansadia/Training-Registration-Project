@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>TrainerServlet</servlet-name>
+  	<display-name>TrainerServlet</display-name>
+  	<description></description>
+  	<servlet-class>Trainer.TrainerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletTrainer</servlet-name>
+  	<display-name>ServletTrainer</display-name>
+  	<description></description>
+  	<servlet-class>Trainer.ServletTrainer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>TrainerServlet</servlet-name>
+  	<url-pattern>/TrainerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletTrainer</servlet-name>
+  	<url-pattern>/ServletTrainer</url-pattern>
+  </servlet-mapping>
 </web-app>
